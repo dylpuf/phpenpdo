@@ -54,6 +54,7 @@
         
         
         $result=$pdo->prepare($sql);
+        $gegevensformulier = array($product_naam, $prijs_per_stuk, $omschrijving);
         $result->execute([$product_naam, $prijs_per_stuk, $omschrijving]);
 
     }
