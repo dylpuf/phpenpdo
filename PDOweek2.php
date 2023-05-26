@@ -7,7 +7,7 @@
     $db = 'winkel';
     $user = 'root';
     $password = '';
-    $charset = 'utf8mb4_unicode_ci';
+    $charset = 'utf8mb4';
 
     $dsn = "localhost:3307=$host;winkel=$db;utf8mb4=$charset";
     $options = [
